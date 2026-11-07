@@ -1,1 +1,32 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FreshMart Demo</title><link rel="stylesheet" href="style.css"></head><body><header><h1>🥬 FreshMart Online</h1><p>Fresh food, simple shopping</p></header><main><h2>Shop groceries</h2><input id="search" placeholder="Search products..." oninput="filterItems()"><p>Cart: <b id="cart">0</b> items</p><div class="grid" id="items"><div class="item" data-name="Avocado"><div class="emoji">🥑</div><h3>Avocado</h3><p>LKR 450</p><button onclick="add()">Add to cart</button></div><div class="item" data-name="Orange"><div class="emoji">🍊</div><h3>Orange</h3><p>LKR 180</p><button onclick="add()">Add to cart</button></div><div class="item" data-name="Milk"><div class="emoji">🥛</div><h3>Fresh Milk</h3><p>LKR 520</p><button onclick="add()">Add to cart</button></div></div><p class="muted">Demo project for practising product cards, search and JavaScript click events.</p><p><a href="../index.html">← Back to portfolio</a></p></main><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fathima Amra | Web Development Portfolio</title>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header class="hero">
+  <nav class="nav"><a class="brand" href="#">AMRA<span>DEV</span></a><a href="#projects">My Projects</a></nav>
+  <div class="hero-inner">
+    <p class="eyebrow">WEB DEVELOPMENT • PRACTICE PORTFOLIO</p>
+    <h1>Hi, I'm <span>Fathima Amra</span></h1>
+    <p class="intro">Welcome to my collection of website practice projects. Explore my work in online shopping, technology and kids' learning.</p>
+    <a class="main-btn" href="#projects">Explore Projects ↓</a>
+  </div>
+</header>
+<main>
+<section id="projects" class="section">
+  <p class="eyebrow">MY WORK</p><h2>Three Website Projects</h2>
+  <p class="sub">Choose a project to open its complete website.</p>
+  <div class="cards">
+    <article class="card fresh"><div class="visual">🐟<strong>FreshMart</strong><small>Fresh Fish • Fresh Choice</small></div><div class="card-body"><span class="tag">01 / ONLINE STORE</span><h3>FreshMart Fish Market</h3><p>A fish market demo with product listings, prices and an add-to-cart interaction.</p><a class="project-btn" href="freshmart/index.html">View Website ↗</a></div></article>
+    <article class="card tech"><div class="visual">📱<strong>TECHNOVA</strong><small>Smart devices • Smart life</small></div><div class="card-body"><span class="tag">02 / TECHNOLOGY</span><h3>TechNova Mobile Store</h3><p>A modern mobile shop demo featuring phones, accessories and enquiry links.</p><a class="project-btn" href="technova/index.html">View Website ↗</a></div></article>
+    <article class="card kids"><div class="visual">🌈<strong>Little Learners</strong><small>Learn • Play • Grow</small></div><div class="card-body"><span class="tag">03 / EDUCATION</span><h3>Little Learners</h3><p>A colourful learning website with activities and a small interactive quiz.</p><a class="project-btn" href="littlelearners/index.html">View Website ↗</a></div></article>
+  </div>
+</section>
+<section class="about"><p class="eyebrow">ABOUT</p><h2>Learning by building.</h2><p>These are practice projects created to improve my skills in HTML, CSS and JavaScript. They demonstrate webpage layout, navigation and simple interactions.</p><div class="skills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span></div></section>
+</main>
+<footer>© 2026 Fathima Amra • Practice Portfolio</footer>
+</body></html>
