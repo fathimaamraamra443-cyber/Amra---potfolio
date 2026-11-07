@@ -1,0 +1,1 @@
+function ask(product){document.getElementById('message').textContent='You selected '+product+'. This is a sample enquiry interaction.'}
